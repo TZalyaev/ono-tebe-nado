@@ -1,6 +1,5 @@
 /*HEADER*/
 .header {
-    width:1340px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     grid-template-rows: 109px;
@@ -47,19 +46,24 @@
     height: inherit;
 }
 
-.header__contacts {
+.address {
     display: flex;
     flex-direction: column;
-    justify-self: end;
     font-style: normal;
     line-height: 24.3px;
     font-size: 18px;
     margin-right: 2px;
 }
+.address_right {
+    justify-self: end;
+}
+.address_left {
+    justify-self: start;
+}
 
-.header__contacts > a {
+.address > a {
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 5px;
 }
 
 /*COVER SECTION*/
@@ -150,7 +154,7 @@
 }
 
 .lots {
-    margin: 180px 50px 181px 50px;
+    margin: 180px 50px 0 50px;
 }
 
 .lots__heading {
@@ -243,29 +247,106 @@
 }
 
 .about {
-
+    display:grid;
+    grid-template-columns: 430px 1fr;
+    padding: 180px 50px 0 50px;
 }
+
 .about__logo {
-
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-self: center;
 }
-.about__content {
 
+.about__logo-image {
+    width: 148px;
+    height: 114px;
+    margin: auto
 }
-.about__content-title {
 
+.about__column {
+    margin-left: 25px;
 }
-.about__content-text {
 
+.about__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    padding:100px 0;
 }
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .footer {
-
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    margin: 180px 50px 92px 50px;
 }
-.footer__contacts {
 
-}
 .footer__menu {
-
+    justify-self: center;
 }
-.footer__socials {
 
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer__menu-list-item {
+    text-align: center;
+    /* об аукционе */
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer__menu-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__social-list {
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    justify-content: space-between;
+    gap: 48px;
+    list-style: none;
+}
+
+.footer__social-list-item {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.footer__social-link {
+    display: flex;
+    width: inherit;
+    height: inherit;
+    
+}
+
+.footer__social-icon {
+    margin:auto;
+    width: inherit;
+    height: inherit;
 }
