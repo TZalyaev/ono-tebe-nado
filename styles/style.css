@@ -153,7 +153,7 @@
 }
 
 .lots {
-  margin: 180px 50px 0 50px;
+  margin: 180px 25px 0 25px;
 }
 
 .lots__heading {
@@ -241,8 +241,8 @@
 
 .about {
   display: grid;
-  grid-template-columns: 30% 1fr;
-  padding: calc((100% - 50px) / 3) 50px 0 50px;
+  grid-template-columns: calc((100% - 50px) / 3) 1fr;
+  padding:  181px 50px 0 50px;
   width: 100%;
 }
 
