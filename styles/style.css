@@ -152,6 +152,7 @@
   font-family: "Raleway";
 }
 
+/*LOTS SECTION*/
 .lots {
   margin: 180px 25px 0 25px;
 }
@@ -239,6 +240,7 @@
   text-underline-offset: 3px;
 }
 
+/*ABOUT SECTION*/
 .about {
   display: grid;
   grid-template-columns: calc((100% - 50px) / 3) 1fr;
@@ -282,6 +284,7 @@
   font-size: 20px;
 }
 
+/*FOOTER*/
 .footer {
   margin-top: 180px;
   display: grid;
@@ -302,7 +305,6 @@
 
 .footer__menu-list-item {
   text-align: center;
-  /* об аукционе */
   font-weight: 400;
   font-size: 18px;
 }
