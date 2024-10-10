@@ -246,7 +246,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  padding:  181px 24px 0 24px;
+  padding: 181px 24px 0 24px;
   width: 100%;
 }
 
@@ -286,24 +286,29 @@
   font-size: 20px;
   line-height: 24px;
 }
+
 .spacing_-001 {
-  letter-spacing:-0.01em
+  letter-spacing: -0.01em;
 }
+
 .spacing_normal {
-  letter-spacing:normal
+  letter-spacing: normal;
 }
+
 .spacing_001 {
-  letter-spacing:0.01em;
+  letter-spacing: 0.01em;
 }
+
 .spacing_002 {
-  letter-spacing:0.02em
+  letter-spacing: 0.02em;
 }
 
 .spacing_003 {
-  letter-spacing:0.03em
+  letter-spacing: 0.03em;
 }
+
 .spacing_004 {
-  letter-spacing:0.03em
+  letter-spacing: 0.03em;
 }
 
 /*FOOTER*/
